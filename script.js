@@ -17,14 +17,14 @@ for (let i = 0; i < listaDePaises.length; i++) {
 }
 //Função responsável pelo carregamento das bandeiras que tem como parâmetro os códigos que estão na variável do arquivo: country-list
 //Ela captura os códigos de cada  país e substitui na url abaixo que retorna a bandeira correspondente
-/*function carregaBandeira(element) {
+function carregaBandeira(element) {
     for (let code in country_list) {
         if (code == element.value) {
             let imgTag = element.parentElement.querySelector(".span");
             imgTag.src = "flag-icon flag-icon-gr flag-icon-squared";
         }
     }
-}*/
+}
 
 window.addEventListener("load", () => {
     executaConversao();
